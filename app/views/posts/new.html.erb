@@ -6,5 +6,11 @@
    <%= f.label :user_id %>
    <%= f.select :user_id, options_for_select(@user_list) %>
   </div>
-
+<div class="form-section">
+	<%= f.label :body %>
+	<%= f.text_area :body %>
+</div>
+<div class="form-section">
+	<%= f.submit 'Post It!'%>
+</div>
 <% end -%>
