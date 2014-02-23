@@ -4,6 +4,8 @@
 <%@user.posts.each do |post| %>
 <div class="post>"
 	<p><%= post.body %></p>
+	<%= link_to "edit", edit_post_path(post)%>
 </div>
 <% end -%>
+
 

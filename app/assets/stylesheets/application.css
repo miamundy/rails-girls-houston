@@ -31,13 +31,15 @@ Let's see how it works!
 body{
   max-width : 1040px;
   margin : auto;
-  font-size: 14px;
+  font-size: 18px;
+  background-color: #d6c90d;
+  font-family: Comic Sans, Comic Sans MS, cursive;
 }
 
 /* Table Styles */
 /* This styles the <th> and <td> elements. */
 th, td{
-  padding: 2px 8px;
+  padding: 4px 16px;
   text-align: left;
 }
 
@@ -76,36 +78,36 @@ input[type="text"]:focus, textarea:focus{
   It is good practice to name classes using dashes, like the other classes in this stylesheet.
 */
 .field_with_errors{
-  color: #CC0000;
+  color: #77d160;
 }
 .field_with_errors input[type="text"], .field_with_errors textarea{
-  border-color: #990000;
+  border-color: #77d160;
 }
 .field_with_errors input[type="text"]:focus, .field_with_errors textarea:focus{
   outline: none;
-  border-color: #333333;
+  border-color: #77d160;
 }
 
 
 /* Each post should look like...*/
 .post{
-  border-bottom: 1px solid #CCCCCC;
+  border-bottom: 1px solid #77d160;
 }
 
 
 /* Navigation bar styles */
 .navigation-bar ul{
   list-style: none;
-  padding: 0;
+  padding: 100;
 }
 .navigation-bar li{
   display: inline-block;
-  margin: 7px;
-  background: #CCCCCC;
+  margin: 45px;
+  background: #9dbdc4;
 }
 .navigation-bar a{
   display: block;
-  padding: 7px;
+  padding: 45px;
   text-decoration: none;
 }
 .navigation-bar li:hover{

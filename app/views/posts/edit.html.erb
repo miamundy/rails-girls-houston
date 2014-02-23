@@ -1,0 +1,19 @@
+
+<small>
+<%= @post.created_at %>
+	</small>
+<br>
+	<%= @post.body %> 
+
+	<h2>editposts</h2>
+	<%= form_for @post do |f| %>
+
+  
+<div class="form-section">
+	<%= f.label :body %>
+	<%= f.text_area :body %>
+</div>
+<div class="form-section">
+	<%= f.submit 'Post It!'%>
+</div>
+<% end -%>
